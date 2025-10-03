@@ -2,6 +2,7 @@
 
 This is a tool to boost viewer count on a YouTube video. This is not intended for malicious purposes or monetization strategies. This was intended for personal use and testing purposes.
 
+🚀 **[Quick Start Guide](QUICKSTART.md)** - Get started in 3 simple steps!  
 📚 **[Complete Setup Guide](SETUP_GUIDE.md)** - Detailed step-by-step instructions for setup and troubleshooting
 
 # Installation

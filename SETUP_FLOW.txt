@@ -1,0 +1,73 @@
+YouTube View Bot - Setup Flow
+================================
+
+┌─────────────────────────────────────────────────────────┐
+│                    GETTING STARTED                       │
+└─────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────┐
+│  Step 1: Clone/Download Repository                       │
+│  ├─ git clone <repo-url>                                │
+│  └─ OR download ZIP and extract                         │
+└─────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────┐
+│  Step 2: Run Setup Script                                │
+│  ├─ python setup.py                                      │
+│  ├─ Checks Python version (3.9.0+)                      │
+│  ├─ Installs dependencies (selenium, webdriver, etc)    │
+│  └─ Creates config.json from default.json               │
+└─────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────┐
+│  Step 3: Configure Video URL                             │
+│  ├─ Edit config.json                                     │
+│  └─ Set "website": "https://youtube.com/watch?v=..."   │
+└─────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────┐
+│  Step 4: Verify Setup (Optional)                         │
+│  ├─ python verify_setup.py                              │
+│  └─ Checks if everything is configured correctly        │
+└─────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────┐
+│  Step 5: Run the Bot                                     │
+│  ├─ python main.py                                       │
+│  ├─ Opens browser tabs                                   │
+│  ├─ Plays videos                                         │
+│  └─ Performs view cycles                                 │
+└─────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+                        SUCCESS! 🎉
+
+Files Created During Setup:
+============================
+✅ requirements.txt       - Python package dependencies
+✅ default.json          - Template configuration
+✅ setup.py              - Automated setup script
+✅ verify_setup.py       - Setup verification script
+✅ QUICKSTART.md         - Quick start guide
+✅ SETUP_GUIDE.md        - Complete setup guide
+✅ README.md (updated)   - Main documentation
+
+Troubleshooting:
+================
+- Dependencies won't install? → Try: pip install --user -r requirements.txt
+- Python not found? → Try: python3 setup.py
+- Config errors? → Run: python verify_setup.py
+- Need help? → Check: SETUP_GUIDE.md
+
+Documentation Index:
+====================
+📄 QUICKSTART.md    - Get started in 3 steps (fastest)
+📄 SETUP_GUIDE.md   - Complete guide with troubleshooting
+📄 README.md        - Full documentation
+📄 CONTRIBUTING.md  - How to contribute
+📄 LICENSE          - License information
